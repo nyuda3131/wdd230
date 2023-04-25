@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: blue;
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+    border-radius: 10px; 
+ }
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.container_image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+  
+.container_name {
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: blue;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+h1 {
+    flex-grow: 1;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.title-link {
+    text-decoration: underline;
+}
+
+.lesson-list {
+    padding-left: 30px;
+}
+  .container_footer {
+    text-align: center;
+}
+  
+.container_name {
+    margin: 0;
+    color: white;
+}
+  
+.last_updated {
+    margin: 0;
+    color: yellow;
+}
+.closer-to-hr {
+    margin-top: -10px;
+    color: gray;
+}
