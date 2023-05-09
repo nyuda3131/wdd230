@@ -1,0 +1,35 @@
+Purposes and Objectives of website
+
+- Promote local business in Kagoshima 
+- Provide the directory of local business
+- Post and promote upcoming community events
+- Be an adovocate for the local business and communitry
+
+Target Audience Identification:
+
+- Local residents looking for services in Kagoshima city 
+- Tourists planning to visit Kagoshima city
+- Investor or business owner who are interested in starting the business in Kagoshima city
+
+Design:
+
+- Use a modern scheme and color contrast to show the beautiful nature of Kagoshima. 
+- Use image of city, local business and communitry events which will attract the visitors
+- Ensure the website is easy to navigate, user friendly and looks nice even been accessed by any device.
+
+Responsive Design
+ - Mobile friendly design adapts differnt screen size
+
+Graphic Identity:
+ 
+- Use Sakuragima active volcano for website looking
+- Ensure the style will be consistant throughout the page so that it will be pleasant for the visitors to see
+
+Contents
+
+- Home page, welcome messge, business information such as local restaurant, museum or acquarium, upcoming events such as summer festival
+- Discover page, Historical information and Characteristics of Kagoshima
+- Directory page
+- Contact page
+- Join page, this is for email magazine for the users to get updated about the upcomijng events or local news about Kagoshima
+- Category section 
