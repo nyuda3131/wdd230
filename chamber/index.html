@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kagoshima Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="screen and (min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 1200px)"
+    />
+    <script src="scripts/lesson4main.js" defer></script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header>
+        <div class="header-top">
+          <div class="logo">
+            <img
+              src="images/sakurajimalogo.png"
+              alt="Kagoshima Chamber of Commerce logo"
+            />
+          </div>
+          <div class="site-name">
+            <h1>Kagoshima<br />Chamber of Commerce</h1>
+          </div>
+          <nav>
+            <button class="hamburger-menu" onclick="toggleMenu()">
+              &#9776;
+            </button>
+            <ul class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+              <img src="images/facebook.png" alt="Facebook icon" />
+              <img src="images/twitter.png" alt="Twitter icon" />
+            </div>
+          </nav>
+        </div>
+        <div class="date-container">
+          <span id="currentDate"></span>
+        </div>
+      </header>
+      <main>
+        <section class="column1">
+          <div class="event">Event section</div>
+          <div class="weather">Weather section</div>
+          <div class="join">Join section</div>
+        </section>
+        <section class="column2">
+          <div class="hero">
+            Hero with site name and call to action column section
+          </div>
+          <div class="new-release">New release section</div>
+        </section>
+        <section class="column3">
+          <div class="spotlight1">Spotlight 1 section</div>
+          <div class="spotlight2">Spotlight 2 section</div>
+          <div class="spotlight3">Spotlight 3 section</div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-content">
+          <img
+            src="images/sakurajimalogo.png"
+            alt="Kagoshima Chamber of Commerce logo"
+          />
+          <p>Kagoshima Chamber of Commerce</p>
+          <p>1-1-1 Example Street, Kagoshima-shi, Kagoshima-ken 12345 Japan</p>
+          <p>Phone: +81 99-999-9999</p>
+          <p><a href="#">View map</a></p>
+        </div>
+        <div class="base-footer">
+          <p>
+            &copy; <span class="currentYear"></span> Kagoshima Chamber of
+            Commerce
+          </p>
+          <p>WDD 230 Project</p>
+          <p>Last modified: <span class="lastModified"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

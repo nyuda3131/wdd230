@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+  header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
