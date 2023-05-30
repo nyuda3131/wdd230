@@ -62,3 +62,4 @@ let dayOfWeek = today.getDay();
 if (dayOfWeek === 1 || dayOfWeek === 2) {
   banner.style.display = "block";
 }
+

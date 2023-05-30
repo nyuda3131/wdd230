@@ -23,7 +23,7 @@
         <div class="header-top">
           <div class="logo">
             <img
-              src="images/sakurajimalogo.png"
+              src="images/sakurajimalogo.jpg"
               alt="Kagoshima Chamber of Commerce logo"
             />
           </div>
@@ -54,12 +54,29 @@
       <main>
         <section class="column1">
           <div class="event">Event section</div>
-          <div class="weather">Weather section</div>
+          <div class="weather">
+            Weather section
+            <span>Temperature: <span id="temp"></span>70°F</span><br>
+            <span>Wind Speed: <span id="windSpeed"></span>40mph</span><br>
+            <span>Wind Chill: <span id="windChill"></span>60°F</span><br>
+          </div>
           <div class="join">Join section</div>
         </section>
         <section class="column2">
           <div class="hero">
-            Hero with site name and call to action column section
+            <p class="hero-p">Treasure of the South, Kagoshima</p>
+            <img
+              srcset="
+                images/kagoshima-small.jpg   480w,
+                images/kagoshima-medium.jpg  800w,
+                images/kagoshima-large.jpg  1200w
+              "
+              sizes="(max-width: 480px) 480px,
+           (max-width: 800px) 800px,
+           1200px"
+              src="images/kagoshima-large.jpg"
+              alt="Kagoishma Attraction"
+            />
           </div>
           <div class="new-release">New release section</div>
         </section>

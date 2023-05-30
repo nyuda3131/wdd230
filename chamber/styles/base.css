@@ -98,9 +98,10 @@ main {
 .spotlight1,
 .spotlight2,
 .spotlight3 {
-  padding: 1rem;
+  padding: 2rem;
   border: 1px solid #ccc;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .hero img {
@@ -155,4 +156,27 @@ main {
   background-color: #708080;
   text-align: center;
   padding: 5px;
+}
+
+.hero-p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: chartreuse;
+}
+
+.weather {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.weather p {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
 }
