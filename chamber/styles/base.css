@@ -180,3 +180,17 @@ main {
   font-size: 16px;
   line-height: 24px;
 }
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  transition: transform .2s;  
+}
+
+.responsive-image:hover {
+  transform: scale(1.2);
+}
+
+figure {
+  overflow: hidden;
+}

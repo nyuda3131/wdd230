@@ -63,3 +63,21 @@ if (dayOfWeek === 1 || dayOfWeek === 2) {
   banner.style.display = "block";
 }
 
+window.addEventListener("DOMContentLoaded", (event) => {
+  const lastVisit = localStorage.getItem("lastVisit");
+  const currentDate = new Date();
+  const oneDay = 24 * 60 * 60 * 1000;
+
+  if (lastVisit) {
+    const daysPassed = Math.round(
+      Math.abs((currentDate - new Date(lastVisit)) / oneDay)
+    );
+    document.getElementById("lastVisited").textContent =
+      "It's been " + daysPassed + " days since your last visit.";
+  } else {
+    document.getElementById("lastVisited").textContent =
+      "This is your first visit to this page.";
+  }
+
+  localStorage.setItem("lastVisit", currentDate.toString());
+});

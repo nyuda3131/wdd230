@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover | Kagoshima Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="screen and (min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 1200px)"
+    />
+    <script src="scripts/lesson4main.js" defer></script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header>
+        <div class="header-top">
+          <div class="logo">
+            <img
+              src="images/sakurajimalogo.jpg"
+              alt="Kagoshima Chamber of Commerce logo"
+            />
+          </div>
+          <div class="site-name">
+            <h1>Kagoshima<br />Chamber of Commerce</h1>
+          </div>
+          <nav>
+            <button class="hamburger-menu" onclick="toggleMenu()">
+              &#9776;
+            </button>
+            <ul class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+              <img src="images/facebook.png" alt="Facebook icon" />
+              <img src="images/twitter.png" alt="Twitter icon" />
+            </div>
+          </nav>
+        </div>
+        <div class="date-container">
+          <span id="currentDate"></span>
+        </div>
+      </header>
+      <section id="discover-page">
+        <h2>Discover Kagoshima</h2>
+        <div class="container">
+          <figure>
+            <img
+              class="responsive-image"
+              src="images/landmarks_kagoshima.jpeg"
+              loading="lazy"
+              alt="Landmarks"
+            />
+            <figcaption>
+              Discover the iconic symbol of Kagoshima, Sakura-jima, and enjoy
+              its various expressions depending on the season, time, and viewing
+              location. As a globally renowned active volcano that continues to
+              erupt, Sakura-jima is an essential part of Kagoshima tourism.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="responsive-image"
+              src="images/localbusinesses_kagoshima.jpeg"
+              loading="lazy"
+              alt="Local Businesses"
+            />
+            <figcaption>
+              Indulge in the rich flavors of Kagoshima's renowned brand of
+              "Kagoshima Kurobuta (black pork), Kagoshima Wagyu (black cattle),
+              and Kagoshima Jidori (local chicken)," which are raised in the
+              abundant natural surroundings. Whether it's the succulent Kurobuta
+              shabu-shabu, savoring the premium marbled texture of Wagyu steak,
+              or enjoying the fresh and tender chicken sashimi, each offers an
+              unparalleled deliciousness. Don't forget to explore the history
+              behind each of these specialties and check out recommended local
+              establishments!
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="responsive-image"
+              src="images/event_kagoshima.jpg"
+              loading="lazy"
+              alt="Event"
+            />
+            <figcaption>
+              A summer tradition in Kagoshima that began with the Millennium, it
+              is Kyushu's largest fireworks festival held against the backdrop
+              of the world-renowned natural landscapes of Sakura-jima, one of
+              the world's most active volcanoes, and the tranquil waters of the
+              Kinsei Bay.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="responsive-image"
+              src="images/community_kagoshima.jpeg"
+              loading="lazy"
+              alt="Community"
+            />
+            <figcaption>
+              Experience the grand summer event in Chiran, Minamikyushu City!
+              With a vibrant shopping street adjacent to the samurai residence
+              gardens, the highlight is the magnificent, fan-shaped Nebuta float
+              measuring 5 meters in height and 4 meters in width, adorned with
+              bold warrior paintings. Accompanied by lively festival music and
+              dance troupes, they illuminate the nights of Chiran with a vibrant
+              summer atmosphere.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="responsive-image"
+              src="images/scenery_kagoshima.jpeg"
+              loading="lazy"
+              alt="Scenery"
+            />
+            <figcaption>
+              From hot springs nestled near mountains, seas, and rivers that
+              display various expressions depending on the season and time, to
+              baths overlooking Sakura-jima, often referred to as the symbol of
+              Kagoshima.
+            </figcaption>
+          </figure>
+        </div>
+        <div id="lastVisited"></div>
+      </section>
+      <footer>
+        <div class="footer-content">
+          <img
+            src="images/sakurajimalogo.png"
+            alt="Kagoshima Chamber of Commerce logo"
+          />
+          <p>Kagoshima Chamber of Commerce</p>
+          <p>1-1-1 Example Street, Kagoshima-shi, Kagoshima-ken 12345 Japan</p>
+          <p>Phone: +81 99-999-9999</p>
+          <p><a href="#">View map</a></p>
+        </div>
+        <div class="base-footer">
+          <p>
+            &copy; <span class="currentYear"></span> Kagoshima Chamber of
+            Commerce
+          </p>
+          <p>WDD 230 Project</p>
+          <p>Last modified: <span class="lastModified"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
