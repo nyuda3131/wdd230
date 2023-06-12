@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join the Chamber</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="screen and (min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 1200px)"
+    />
+    <script src="scripts/lesson4main.js" defer></script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header>
+        <div class="header-top">
+          <div class="logo">
+            <img
+              src="images/sakurajimalogo.jpg"
+              alt="Kagoshima Chamber of Commerce logo"
+            />
+          </div>
+          <div class="site-name">
+            <h1>Kagoshima<br />Chamber of Commerce</h1>
+          </div>
+          <nav>
+            <button class="hamburger-menu" onclick="toggleMenu()">
+              &#9776;
+            </button>
+            <ul class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./discover.html">Discover</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="./join.html">Join</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+              <img src="images/facebook.png" alt="Facebook icon" />
+              <img src="images/twitter.png" alt="Twitter icon" />
+            </div>
+          </nav>
+        </div>
+        <div class="date-container">
+          <span id="currentDate"></span>
+        </div>
+      </header>
+
+      <div class="join-content">
+        <form action="thankyou.html" method="get">
+          <label>
+            First Name:
+            <input type="text" name="firstName" required />
+          </label>
+          <label>
+            Last Name:
+            <input type="text" name="lastName" required />
+          </label>
+          <label>
+            Business Position Title:
+            <input
+              type="text"
+              name="positionTitle"
+              pattern="(?=.*[A-Za-z])[A-Za-z- ]{7,}"
+            />
+          </label>
+          <label>
+            Email:
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="example@example.com"
+            />
+          </label>
+          <label>
+            Cell Phone Number:
+            <input type="tel" name="phoneNumber" required />
+          </label>
+          <label>
+            Business Name/Title:
+            <input type="text" name="businessTitle" required />
+          </label>
+          <label>
+            Membership Level:
+            <select name="membershipLevel" required>
+              <option value="np">NP Membership (Free)</option>
+              <option value="bronze">Bronze Membership ($100)</option>
+              <option value="silver">Silver Membership ($200)</option>
+              <option value="gold">Gold Membership ($300)</option>
+            </select>
+          </label>
+          <label>
+            Business Description:
+            <textarea name="businessDescription"></textarea>
+          </label>
+          <input type="hidden" name="submissionTime" value="" />
+          <input type="submit" value="Submit Membership Application" />
+        </form>
+        <div class="benefits">
+          <h2>Membership Benefits:</h2>
+          <p>
+            <strong>NP Membership:</strong> No fee, suitable for non-profit
+            organizations.
+          </p>
+          <p>
+            <strong>Bronze Membership ($100):</strong> The Bronze Level is
+            designed to increase your visibility while gaining resources to help
+            your business. This membership level includes all Core Benefits and
+            those listed below.
+          </p>
+          <p>
+            <strong>Silver Membership ($200):</strong> The Silver Level provides
+            you with strategic networking and access. Engage with key decision
+            makers and peers, explore best practices that advance the community.
+            This membership level includes all Core Benefits and a broad range
+            of enhanced engagement and exposure opportunities.
+          </p>
+          <p>
+            <strong>Gold Membership ($300):</strong> The Gold Level increases
+            your influence among elected officials and access to your customers
+            and peers. Help develop policies and positions on key issues
+            affecting Utah`s community at the federal, state and local level.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <img
+            src="images/sakurajimalogo.png"
+            alt="Kagoshima Chamber of Commerce logo"
+          />
+          <p>Kagoshima Chamber of Commerce</p>
+          <p>1-1-1 Example Street, Kagoshima-shi, Kagoshima-ken 12345 Japan</p>
+          <p>Phone: +81 99-999-9999</p>
+          <p><a href="#">View map</a></p>
+        </div>
+        <div class="base-footer">
+          <p>
+            &copy; <span class="currentYear"></span> Kagoshima Chamber of
+            Commerce
+          </p>
+          <p>WDD 230 Project</p>
+          <p>Last modified: <span class="lastModified"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

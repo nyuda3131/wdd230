@@ -27,4 +27,18 @@
   .column3 {
     flex: 1;
   }
+
+  .join-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  form {
+    flex: 1;
+  }
+
+  .membership-levels {
+    flex: 1;
+  }
 }

@@ -8,13 +8,26 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-}
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .join-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+  }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  padding: 1em;
-  max-width: 1200px; 
-  margin: 0 auto; 
+  form {
+    flex: 1;
+  }
+
+  .membership-levels {
+    flex: 1;
+  }
 }

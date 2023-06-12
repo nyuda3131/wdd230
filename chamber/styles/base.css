@@ -184,7 +184,7 @@ main {
 .responsive-image {
   width: 100%;
   height: auto;
-  transition: transform .2s;  
+  transition: transform 0.2s;
 }
 
 .responsive-image:hover {
@@ -193,4 +193,112 @@ main {
 
 figure {
   overflow: hidden;
+}
+
+form {
+  flex: 2;
+  padding: 0.7em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+form label {
+  margin-bottom: 0.5em;
+  color: white;
+  display: block;
+}
+
+form input,
+form textarea,
+form select {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+.thankyou-message {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.membership-levels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.membership-level {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.benefits {
+  flex: 1;
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1rem;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.benefits h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.benefits p {
+  margin-bottom: 0.5em;
+}
+
+.join-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .join-content {
+    display: flex;
+    gap: 2rem;
+  }
+
+  form {
+    flex: 1;
+  }
+
+  .membership-levels {
+    flex: 1;
+  }
+
+  .join-content {
+    flex-direction: row;
+  }
 }
