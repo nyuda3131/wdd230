@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  gap: 1em;
+  width: 90%;
+  margin: 2em auto;
+}
+
+.cards section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.cards section h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.cards section p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.cards section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
