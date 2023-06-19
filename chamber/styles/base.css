@@ -49,12 +49,13 @@ nav {
 }
 
 .menu-items {
-  display: none;
+  display: flex;
   list-style-type: none;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .menu-items li a {
-  display: block;
   color: #fff;
   text-align: center;
   padding: 15px;
@@ -283,7 +284,51 @@ form button:hover {
   gap: 1rem;
 }
 
-/* Responsive design */
+#businessDirectory {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(320px, 1fr));
+  gap: 1em;
+  width: 100%;
+  margin: 2em auto;
+}
+
+#businessDirectory .business-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  height: 250px;
+}
+
+#businessDirectory .business-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#businessDirectory .business-card p,
+#businessDirectory .business-card a {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+#businessDirectory .business-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.business-card__name,
+.business-card__address,
+.business-card__phone,
+.business-card__website {
+  margin: 0;
+  padding: 0.3em;
+}
+
 @media (min-width: 768px) {
   .join-content {
     display: flex;
@@ -300,5 +345,23 @@ form button:hover {
 
   .join-content {
     flex-direction: row;
+  }
+
+  #businessDirectory {
+    grid-template-columns: repeat(4, minmax(320px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  #businessDirectory {
+    grid-template-columns: repeat(1, minmax(700px, 1fr));
+    gap: 1em;
+    padding: 1em;
+  }
+
+  #businessDirectory .business-card {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 300px;
   }
 }

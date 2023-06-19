@@ -1,0 +1,60 @@
+{
+    "businesses": [
+      {
+        "name": "株式会社鹿児島銀行",
+        "address": "鹿児島県鹿児島市金生町６番６号",
+        "phoneNumber": "0800-111-4189",
+        "websiteUrl": "https://www.kagin.co.jp/investor/profile/company.html",
+        "imageUrl": "images/kagin.png"
+      },
+      {
+        "name": "ジャパンファーム",
+        "address": "鹿児島県曽於郡大崎町益丸６５１番地",
+        "phoneNumber": "0800-111-5189",
+        "websiteUrl": "https://baseconnect.in/companies/52a64d21-35e4-487e-b9b0-5968e73ec3b7",
+        "imageUrl": "images/japanfarm.png"
+      },
+      {
+        "name": "株式会社オーリック",
+        "address": "鹿児島県鹿児島市別府町４１番地２６",
+        "phoneNumber": "0800-411-5189",
+        "websiteUrl": "https://baseconnect.in/companies/7450fd6f-b4cf-49c5-a3dc-f180a4814af0",
+        "imageUrl": "images/alliq.png"
+      },
+      {
+        "name": "南日本総合サービス",
+        "address": "鹿児島県鹿児島市小川町１５番１号",
+        "phoneNumber": "0800-451-5189",
+        "websiteUrl": "https://baseconnect.in/companies/50a3a840-6788-41ce-a935-9e4851f478e3",
+        "imageUrl": "images/minaminihon.png"
+      },
+      {
+        "name": "マルイ食品株式会社",
+        "address": "鹿児島県出水市平和町２２５番地",
+        "phoneNumber": "0800-451-4189",
+        "websiteUrl": "https://baseconnect.in/companies/c2033587-375a-4e50-8083-98136b2da2cd",
+        "imageUrl": "images/marui.png"
+      },
+      {
+        "name": "株式会社ニシムタ",
+        "address": "鹿児島市与次郎１丁目１０番１号",
+        "phoneNumber": "0800-451-5132",
+        "websiteUrl": "https://baseconnect.in/companies/797ab4b4-6327-4f12-b3d3-fbd83642838d",
+        "imageUrl": "images/nishimuta.png"
+      },
+      {
+        "name": "南国殖産株式会社",
+        "address": "鹿児島県鹿児島市中央町１８番地１",
+        "phoneNumber": "0800-451-5364",
+        "websiteUrl": "https://baseconnect.in/companies/040dd00b-0da2-44bf-b624-070967fb2ca4",
+        "imageUrl": "images/nangoku.png"
+      },
+      {
+        "name": "株式会社新日本科学",
+        "address": "鹿児島市宮之浦町２４３８番地",
+        "phoneNumber": "0800-451-5187",
+        "websiteUrl": "https://baseconnect.in/companies/4b910b9f-f5fd-4c25-83cc-0011ad5e9180",
+        "imageUrl": "images/nihonkagaku.png"
+      }
+    ]
+}

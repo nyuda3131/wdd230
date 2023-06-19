@@ -3,19 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank You</title>
+    <meta name="description" content="Business Directory for Chamber" />
+    <title>Business Directory</title>
     <link rel="stylesheet" href="styles/base.css" />
-    <link
-      rel="stylesheet"
-      href="styles/medium.css"
-      media="screen and (min-width: 768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/large.css"
-      media="screen and (min-width: 1200px)"
-    />
     <script src="scripts/lesson4main.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -31,9 +23,6 @@
             <h1>Kagoshima<br />Chamber of Commerce</h1>
           </div>
           <nav>
-            <button class="hamburger-menu" onclick="toggleMenu()">
-              &#9776;
-            </button>
             <ul class="menu-items">
               <li><a href="index.html">Home</a></li>
               <li><a href="discover.html">Discover</a></li>
@@ -51,12 +40,9 @@
           <span id="currentDate"></span>
         </div>
       </header>
-      <h1>Thank You</h1>
-      <p>
-        Thank you for your application to join the chamber. We'll be in touch
-        soon.
-      </p>
-
+      <main>
+        <section id="businessDirectory"></section>
+      </main>
       <footer>
         <div class="footer-content">
           <img

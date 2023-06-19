@@ -63,7 +63,7 @@ if (dayOfWeek === 1 || dayOfWeek === 2) {
   banner.style.display = "block";
 }
 
-window.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
   const lastVisit = localStorage.getItem("lastVisit");
   const currentDate = new Date();
   const oneDay = 24 * 60 * 60 * 1000;
