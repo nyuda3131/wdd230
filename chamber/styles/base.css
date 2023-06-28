@@ -100,9 +100,10 @@ main {
 .spotlight2,
 .spotlight3 {
   padding: 2rem;
-  border: 1px solid #ccc;
+  border: 2px solid #246083;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 .hero img {
@@ -164,7 +165,8 @@ main {
   font-weight: bold;
   text-align: center;
   margin-bottom: 1rem;
-  color: chartreuse;
+  color: black;
+  padding-bottom: 10px;
 }
 
 .weather {
