@@ -306,12 +306,11 @@ form button:hover {
 
 #businessDirectory .business-card h2 {
   font-size: 1.5em;
-  margin-bottom: 0.5em;
 }
 
 #businessDirectory .business-card p,
 #businessDirectory .business-card a {
-  margin: 0.5em 0;
+  margin: 0;
   font-size: 1em;
 }
 
