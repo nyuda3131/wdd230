@@ -10,11 +10,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #708080;
+  background-color: burlywood;
 }
 
 header {
-  background-color: #708080;
+  background-color: burlywood;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ nav {
 }
 
 .menu-items li a {
-  color: #fff;
+  color: black;
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -64,7 +64,7 @@ nav {
 }
 
 .menu-items li a:hover {
-  background-color: #708080;
+  background-color: burlywood;
   color: yellow;
 }
 
@@ -112,9 +112,9 @@ main {
 }
 
 footer {
-  background-color: #708080;
+  background-color: burlywood;
   padding: 1rem;
-  color: white;
+  color: black;
   text-align: center;
   margin-top: auto;
 }
@@ -154,7 +154,7 @@ main {
 
 .date-container {
   width: 100%;
-  background-color: #708080;
+  background-color: burlywood;
   text-align: center;
   padding: 5px;
 }

@@ -48,7 +48,7 @@ document.getElementById("currentDate").textContent = getCurrentDate();
 
 let banner = document.createElement("div");
 banner.style.display = "none";
-banner.style.backgroundColor = "#708080";
+banner.style.backgroundColor = "brown";
 banner.style.color = "white";
 banner.style.padding = "10px";
 banner.style.textAlign = "center";
