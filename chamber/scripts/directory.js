@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/chamber/json/data.json")
+  fetch("./json/data.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("HTTP error " + response.status);

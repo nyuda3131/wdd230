@@ -55,6 +55,13 @@
         "phoneNumber": "0800-451-5187",
         "websiteUrl": "https://baseconnect.in/companies/4b910b9f-f5fd-4c25-83cc-0011ad5e9180",
         "imageUrl": "images/nihonkagaku.png"
+      },
+      {
+        "name": "モスバーガー",
+        "address": "鹿児島県鹿児島市中山町２２５０-１",
+        "phoneNumber": "099-269-6908",
+        "websiteUrl": "https://www.mos.jp/shop/detail/?shop_cd=05192",
+        "imageUrl": "images/mossburger.png"
       }
     ]
 }

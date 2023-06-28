@@ -351,6 +351,14 @@ form button:hover {
   align-items: center;
 }
 
+.wireframes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
 @media (min-width: 768px) {
   .join-content {
     display: flex;
