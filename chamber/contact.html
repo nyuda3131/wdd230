@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Kagoshima Chamber of Commerce</title>
+  <meta name="description" content="Welcome to the Kagoshima Chamber of Commerce! We are focused supporting and promoting businesses in Kagoshima.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <link rel="stylesheet" href="styles/base.css">
+  <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="screen and (min-width: 768px)"
+    />
+  <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 1200px)"
+    />
+  <script src="scripts/lesson4main.js" defer></script>
+</head>
+<body>
+<div class="site-wrapper">
+  <header>
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html" class="container-link">
+          <img src="images/sakurajimalogo.jpg" alt="Kagoshima Chamber of Commerce logo">
+        </a>
+      </div>
+      <div class="site-name">
+        <h1>Kagoshima<br/>Chamber of Commerce</h1>
+      </div>
+      <nav>
+        <ul class="menu-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <img src="images/facebook.png" alt="Facebook icon"/>
+          <img src="images/twitter.png" alt="Twitter icon"/>
+        </div>
+      </nav>
+    </div>
+    <div class="date-container">
+      <span id="currentDate"></span>
+    </div>
+  </header>
+    <h1 class="contact-h">Contact Us</h1>
+    <div class="contact-content">
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email:
+            <input type="email" name="email" required placeholder="example@example.com">
+          </label>
+          <label>
+            Subject:
+            <input type="text" name="subject" required>
+          </label>
+          <label>
+            Message:
+            <textarea name="message"></textarea>
+          </label>
+          <input type="hidden" name="submissionTime" value="">
+          <input type="submit" value="Send Message">
+        </form>     
+  <footer>
+    <div class="footer-content">
+      <a href="index.html" class="container-link">
+        <img src="images/sakurajimalogo.jpg" alt="Kagoshima Chamber of Commerce logo"/>
+      </a>
+      <p>Kagoshima Chamber of Commerce</p>
+      <p>1-1-1 Example Street, Kagoshima-shi, Kagoshima-ken 13245 Japan</p>
+      <p>Phone: +81 43-354-9999</p>
+      <p><a href="https://www.google.com/maps/place/Kagoshima,+Japan" target="_blank" class="container-link">View map</a></p>
+    </div>
+    <div class="base-footer">
+      <p>&copy; <span class="currentYear"></span> Kagoshima Chamber of Commerce</p>
+      <p>WDD 230 Project</p>
+      <p>Last modified: <span class="lastModified"></span></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kagoshima Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Kagoshima Chamber of Commerce! We are focused supporting and promoting businesses in Kagoshima.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <link rel="stylesheet" href="styles/base.css" />
     <link
       rel="stylesheet"
@@ -22,10 +24,12 @@
       <header>
         <div class="header-top">
           <div class="logo">
-            <img
-              src="images/sakurajimalogo.jpg"
-              alt="Kagoshima Chamber of Commerce logo"
-            />
+            <a href="index.html" class="container-link">
+              <img
+                src="images/sakurajimalogo.jpg"
+                alt="Kagoshima Chamber of Commerce logo"
+              />
+            </a>
           </div>
           <div class="site-name">
             <h1>Kagoshima<br />Chamber of Commerce</h1>
@@ -39,7 +43,7 @@
               <li><a href="discover.html">Discover</a></li>
               <li><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="social-icons">
               <img src="images/facebook.png" alt="Facebook icon" />
@@ -53,7 +57,17 @@
       </header>
       <main>
         <section class="column1">
-          <div class="event">Coming Soon</div>
+          <div class="container">
+            <div class="image-container">
+              <a href="https://www.kagoshima-kankou.com/guide" target="_blank" class="container-link">
+              <img src="./images/amami.png" alt="amamioshima beach" class="sightseeing">
+            </a>
+              <div class="text-message">
+                <h2>Sightseeing &rarr;</h2>
+                <p>Let's go to Kagoshima</p>
+              </div>
+            </div>
+          </div>
           <div class="weather">
             <h2>Weather</h2>
             <div class="weather-top">
@@ -65,31 +79,80 @@
             <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
           </div>
-          <div class="join">Coming Soon</div>
+          <div class="container">
+            <div class="image-container">
+              <a href="./join.html" class="container-link">
+              <img src="./images/joinpic.png" alt="amamioshima beach" class="sightseeing">
+            </a>
+              <div class="text-message">
+                <h2>Join</h2>
+                <p>Networking & collaboration</p>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="column2">
-          <div class="hero">
-            <p class="hero-p">Treasure of the South, Kagoshima</p>
-            <img src="images/kagoshima-large.jpg" alt="Kagoishma Attraction" />
+          <div class="hero" style="background-image: url('images/kagoshima-large.jpg');">
+              <p class="text-message">Treasure of the South, Kagoshima</p>
           </div>
-          <div class="new-release">Coming Soon</div>
-        </section>
+          <div class="new-release">
+            <ul>
+              <li class="news-item"><a href="https://www-city-kagoshima-lg-jp.cache.yimg.jp/hoiku/hoikushikakuho/shogakukin.html">Kagoshima City Childcare Worker Scholarship Repayment Assistance Program</a></li>
+              <li class="news-item"><a href="https://www-city-kagoshima-lg-jp.cache.yimg.jp/kikakuzaisei/zaisei/kanzai/shise/kanrisha/shiteikanri2023.html">Recruitment of designated administrators</a></li>
+              <li class="news-item"><a href="https://www-city-kagoshima-lg-jp.cache.yimg.jp/sakurajima-ferry/tyumoku/ferry-event.html">Kinko Bay Night Cruise</a></li>
+              <li class="news-item"><a href="https://www-city-kagoshima-lg-jp.cache.yimg.jp/san-seisaku/tokubetsushienkin_sinsei.html">Provision of Special Support Funds for Small and medium-sized business owners.</a></li>
+              <li class="news-item"><a href="https://www-city-kagoshima-lg-jp.cache.yimg.jp/shimin/shiminbunka/soudan/ukuraina.html">Installation of donation boxes for humanitarian assistance to Ukraine</a></li>
+            </ul>
+          </div>
+      </section>
         <section class="column3">
-          <div class="spotlight1">Coming Soon</div>
-          <div class="spotlight2">Coming Soon</div>
-          <div class="spotlight3">Coming Soon</div>
+          <div class="container">
+            <div class="image-container">
+              <a href="https://www.pref.kagoshima.jp/miryoku/syoku.html" target="_blank" class="container-link">
+              <img src="./images/food.png" alt="Kagoshima's food" class="food">
+            </a>
+              <div class="text-message">
+                <h2>Food &rarr;</h2>
+                <p>Delicious Kagoshima Brand</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="image-container">
+              <a href="https://www.pref.kagoshima.jp/miryoku/sangyo.html" target="_blank" class="container-link">
+              <img src="./images/industry.png" alt="Industry" class="industry">
+            </a>
+              <div class="text-message">
+                <h2>Industry &rarr;</h2>
+                <p>Kagoshima's local goods</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="image-container">
+              <a href="https://www.pref.kagoshima.jp/pr/shima/gaiyo/index.html" target="_blank" class="container-link">
+              <img src="./images/islands.png" alt="Kagoshima's islands" class="islands">
+            </a>
+              <div class="text-message">
+                <h2>Nature &rarr;</h2>
+                <p>Kagoshima's Islands
+              </div>
+            </div>
+          </div>
         </section>
       </main>
       <footer>
         <div class="footer-content">
-          <img
-            src="images/sakurajimalogo.png"
-            alt="Kagoshima Chamber of Commerce logo"
-          />
+          <a href="index.html" class="container-link">
+            <img
+              src="images/sakurajimalogo.jpg"
+              alt="Kagoshima Chamber of Commerce logo"
+            />
+          </a>
           <p>Kagoshima Chamber of Commerce</p>
           <p>1-1-1 Example Street, Kagoshima-shi, Kagoshima-ken 13245 Japan</p>
           <p>Phone: +81 43-354-9999</p>
-          <p><a href="#">View map</a></p>
+          <p><a href="https://www.google.com/maps/place/Kagoshima,+Japan" target="_blank" class="container-link">View map</a></p>
         </div>
         <div class="base-footer">
           <p>
